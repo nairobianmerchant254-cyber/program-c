@@ -1,4 +1,10 @@
-#include<stdio.h>
+/*
+  NAME:OBAGA ANOLD MATONDA
+  REG NO : PA 106/G/28787/25
+  DESCRIPTION:PROMPTING USER TO ENTER PASSWORD
+  */
+  
+  #include<stdio.h>
 int main(){
 int password;
 do{
