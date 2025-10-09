@@ -1,4 +1,11 @@
-#include<stdio.h>
+/*
+   NAME: OBAGA ANOLD MATONDA
+   REG NO:PA106/G/28787/25
+   DESCRIPTION:PROMPTING USER TO ENTER BALANCE TILL IT BECOMES 0
+   */
+   
+   
+   #include<stdio.h>
 int main(){
 int balance;
 int withdraw;
@@ -10,7 +17,7 @@ printf("how much do u wanna withdraw:\n");
 scanf("%d",&withdraw);
 
 if(withdraw>balance){
-printf("sorry you don't have enough funds ˜­,you have ksh.%d\n", balance);
+printf("sorry you don't have enough funds ËœÂ­,you have ksh.%d\n", balance);
 }
 else{
 balance-=withdraw;
@@ -24,5 +31,6 @@ printf("you do not ave any funds");
 
 return 0;
 }
+
 
     
